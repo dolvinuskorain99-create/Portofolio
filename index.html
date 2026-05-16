@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Imanuel Korain</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-500 selection:text-white">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <span class="text-xl font-bold tracking-tight text-blue-600">IK.</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4 font-medium text-slate-600">
+                        <a href="#home" class="hover:text-blue-600 px-3 py-2 transition-colors">Beranda</a>
+                        <a href="#about" class="hover:text-blue-600 px-3 py-2 transition-colors">Tentang</a>
+                        <a href="#skills" class="hover:text-blue-600 px-3 py-2 transition-colors">Keahlian</a>
+                        <a href="#projects" class="hover:text-blue-600 px-3 py-2 transition-colors">Proyek</a>
+                        <a href="#contact" class="bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-lg transition-colors shadow-sm">Kontak</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="py-20 lg:py-32 bg-gradient-to-b from-blue-50 to-transparent">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left md:flex md:items-center md:justify-between gap-8">
+            <div class="md:w-2/3 space-y-6">
+                <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span> Mahasiswa Teknik Informatika
+                </div>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+                    Halo, Saya <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Imanuel Korain</span>
+                </h1>
+                <p class="text-lg text-slate-600 max-w-xl leading-relaxed">
+                    Mahasiswa di Universitas Sains dan Teknologi Jayapura (USTJ) yang berfokus pada Full-Stack Web Development, Grafika Komputer, dan Administrasi Jaringan.
+                </p>
+                <div class="flex justify-center md:justify-start gap-4 pt-2">
+                    <a href="#projects" class="bg-slate-900 text-white hover:bg-slate-800 px-6 py-3 rounded-xl transition-all font-medium shadow-md">Lihat Proyek</a>
+                    <a href="#contact" class="border border-slate-300 hover:border-slate-400 bg-white px-6 py-3 rounded-xl transition-all font-medium shadow-sm">Hubungi Saya</a>
+                </div>
+            </div>
+            
+            <div class="mt-12 md:mt-0 md:w-1/3 flex justify-center">
+                <div class="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full p-1 bg-gradient-to-tr from-blue-600 to-indigo-500 shadow-xl">
+                    <img 
+                        src="img/imanuel.jpg.png" 
+                        alt="Imanuel Korain" 
+                        class="w-full h-full object-cover rounded-full bg-slate-100 object-[center_25%]"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                    />
+                    <div class="hidden w-full h-full rounded-full bg-gradient-to-tr from-blue-600 to-indigo-500 items-center justify-center text-white text-6xl font-bold">
+                        IK
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 border-t border-slate-100 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-6">Tentang Saya</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Saya berdomisili di Jayapura, Papua, dan saat ini menempuh pendidikan di USTJ. Saya memiliki minat besar dalam memecahkan masalah kompleks melalui baris kode dan mengimplementasikan arsitektur sistem web yang bersih serta efisien.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <h3 class="font-bold text-slate-900 mb-1"><i class="fa-solid fa-graduation-cap text-blue-600 mr-2"></i> Pendidikan</h3>
+                        <p class="text-sm text-slate-600">S1 Teknik Informatika - USTJ</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <h3 class="font-bold text-slate-900 mb-1"><i class="fa-solid fa-code-branch text-blue-600 mr-2"></i> Pelatihan</h3>
+                        <p class="text-sm text-slate-600">Alumni RevoU Coding Camp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-10 text-center md:text-left">Keahlian Teknis</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-slate-200/60">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-3">Web Development</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">HTML5</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">CSS3</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">JavaScript</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">PHP</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">CodeIgniter 4</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">Laravel 12</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-slate-200/60">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-3">Grafika Komputer</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">Processing (Java)</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">2D/3D Animation</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">Object Transformation</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-xs border border-slate-200/60">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl font-bold mb-4">
+                        <i class="fa-solid fa-network-wired"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-900 mb-3">Jaringan & Hardware</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">Cisco Packet Tracer</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">LAN Topology</span>
+                        <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-md text-xs font-medium">Troubleshooting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-10 text-center md:text-left">
+                <h2 class="text-2xl sm:text-3xl font-bold text-slate-900">Proyek Pilihan</h2>
+                <p class="text-slate-500 mt-2">Beberapa sistem dan aplikasi yang telah saya kembangkan.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-slate-50 rounded-2xl border border-slate-200/70 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="bg-blue-100 text-blue-700 text-xs px-2.5 py-1 rounded-md font-semibold">Web Application</span>
+                            <span class="text-xs text-slate-400 font-medium">April - Mei 2026</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Website Resmi Kampung Mosun</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Membangun platform informasi desa terintegrasi untuk mendigitalisasi data administrasi warga, publikasi galeri kegiatan, dan transparansi layanan publik desa.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 pt-2">
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">HTML5</span>
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">CSS3</span>
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">PHP</span>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 bg-slate-50/50 flex justify-end">
+                        <a href="#" class="text-sm font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1">Kode Sumber <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                    </div>
+                </div>
+
+                <div class="bg-slate-50 rounded-2xl border border-slate-200/70 overflow-hidden flex flex-col justify-between">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="bg-indigo-100 text-indigo-700 text-xs px-2.5 py-1 rounded-md font-semibold">Computer Graphics</span>
+                            <span class="text-xs text-slate-400 font-medium">Desember 2025</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900">Simulasi Tata Surya Interaktif</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Tugas Besar Praktikum Grafika Komputer berupa aplikasi desktop interaktif animasi 3D pergerakan planet dengan presisi kalkulasi translasi, rotasi, serta penstabilan framerate.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 pt-2">
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">Processing</span>
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">Java</span>
+                            <span class="text-xs font-mono bg-white text-slate-600 px-2 py-0.5 rounded border border-slate-200">3D Animation</span>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 pt-2 border-t border-slate-100 bg-slate-50/50 flex justify-end">
+                        <a href="#" class="text-sm font-semibold text-blue-600 hover:text-blue-700 flex items-center gap-1">Demo Proyek <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-xl mx-auto text-center space-y-6">
+                <h2 class="text-3xl font-bold tracking-tight">Mari Terhubung</h2>
+                <p class="text-slate-400">
+                    Saya selalu terbuka untuk berdiskusi mengenai proyek kolaborasi web development, riset grafika komputer, atau peluang kerja sama industri.
+                </p>
+                <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4 text-sm font-medium">
+                    <a href="mailto:email-anda@domain.com" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-5 py-3 rounded-xl transition-colors w-full sm:w-auto justify-center">
+                        <i class="fa-solid fa-envelope"></i> Kirim Email
+                    </a>
+                    <div class="flex items-center gap-4 text-2xl text-slate-400 pt-2 sm:pt-0">
+                        <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 py-6 border-t border-slate-800 text-center text-xs text-slate-500">
+        <p>&copy; 2026 Imanuel Korain. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
